@@ -35,8 +35,8 @@
  pboverflow_events.3.b:0 "Mult + 1"
  pboverflow_events.3.c:0 "Mult - 1"
  pboverflow_events.3.d:0 "Mult / 10"
- pboverflow_events.3.e:0 "Apply modifier
- pboverflow_events.3.f:0 "Remove modifier
+ pboverflow_events.3.e:0 "Apply modifier"
+ pboverflow_events.3.f:0 "Remove modifier"
  pboverflow_events.3.g:0 "Cancel"
 
  pboverflow_events.4.name:0 "Shield Value Overflow Modifier Setting"
@@ -45,8 +45,8 @@
  pboverflow_events.4.b:0 "Mult + 1"
  pboverflow_events.4.c:0 "Mult - 1"
  pboverflow_events.4.d:0 "Mult / 10"
- pboverflow_events.4.e:0 "Apply modifier
- pboverflow_events.4.f:0 "Remove modifier
+ pboverflow_events.4.e:0 "Apply modifier"
+ pboverflow_events.4.f:0 "Remove modifier"
  pboverflow_events.4.g:0 "Cancel"
 
  pboverflow_events.5.name:0 "Weapon Damage Overflow Modifier Setting"
@@ -55,8 +55,8 @@
  pboverflow_events.5.b:0 "Mult + 1"
  pboverflow_events.5.c:0 "Mult - 1"
  pboverflow_events.5.d:0 "Mult / 10"
- pboverflow_events.5.e:0 "Apply modifier
- pboverflow_events.5.f:0 "Remove modifier
+ pboverflow_events.5.e:0 "Apply modifier"
+ pboverflow_events.5.f:0 "Remove modifier"
  pboverflow_events.5.g:0 "Cancel"
 
  pboverflow_events.6.name:0 "Weapon Fire Rate Overflow Modifier Setting"
@@ -65,8 +65,8 @@
  pboverflow_events.6.b:0 "Mult + 1"
  pboverflow_events.6.c:0 "Mult - 1"
  pboverflow_events.6.d:0 "Mult / 10"
- pboverflow_events.6.e:0 "Apply modifier
- pboverflow_events.6.f:0 "Remove modifier
+ pboverflow_events.6.e:0 "Apply modifier"
+ pboverflow_events.6.f:0 "Remove modifier"
  pboverflow_events.6.g:0 "Cancel"
 
  edict_pboverflow_menu:0 "Open Perfectly Balanced - Overflow Fix Menu"

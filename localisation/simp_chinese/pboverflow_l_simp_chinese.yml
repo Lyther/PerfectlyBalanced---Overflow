@@ -1,4 +1,4 @@
-﻿l_simp_chinses:
+﻿l_simp_chinese:
  ship_hull_regen_fix:0 "舰体值恢复溢出修正"
  ship_armor_regen_fix:0 "装甲值恢复溢出修正"
  ship_shield_regen_fix:0 "护盾值恢复溢出修正"
@@ -35,8 +35,8 @@
  pboverflow_events.3.b:0 "倍率+1"
  pboverflow_events.3.c:0 "倍率-1"
  pboverflow_events.3.d:0 "倍率/10"
- pboverflow_events.3.e:0 "应用修正
- pboverflow_events.3.f:0 "移除修正
+ pboverflow_events.3.e:0 "应用修正"
+ pboverflow_events.3.f:0 "移除修正"
  pboverflow_events.3.g:0 "取消"
 
  pboverflow_events.4.name:0 "护盾值溢出修正设置"
@@ -45,8 +45,8 @@
  pboverflow_events.4.b:0 "倍率+1"
  pboverflow_events.4.c:0 "倍率-1"
  pboverflow_events.4.d:0 "倍率/10"
- pboverflow_events.4.e:0 "应用修正
- pboverflow_events.4.f:0 "移除修正
+ pboverflow_events.4.e:0 "应用修正"
+ pboverflow_events.4.f:0 "移除修正"
  pboverflow_events.4.g:0 "取消"
 
  pboverflow_events.5.name:0 "武器伤害溢出修正设置"
@@ -55,8 +55,8 @@
  pboverflow_events.5.b:0 "倍率+1"
  pboverflow_events.5.c:0 "倍率-1"
  pboverflow_events.5.d:0 "倍率/10"
- pboverflow_events.5.e:0 "应用修正
- pboverflow_events.5.f:0 "移除修正
+ pboverflow_events.5.e:0 "应用修正"
+ pboverflow_events.5.f:0 "移除修正"
  pboverflow_events.5.g:0 "取消"
 
  pboverflow_events.6.name:0 "武器射速溢出修正设置"
@@ -65,8 +65,8 @@
  pboverflow_events.6.b:0 "倍率+1"
  pboverflow_events.6.c:0 "倍率-1"
  pboverflow_events.6.d:0 "倍率/10"
- pboverflow_events.6.e:0 "应用修正
- pboverflow_events.6.f:0 "移除修正
+ pboverflow_events.6.e:0 "应用修正"
+ pboverflow_events.6.f:0 "移除修正"
  pboverflow_events.6.g:0 "取消"
 
  edict_pboverflow_menu:0 "开启意识流平衡：溢出修复菜单"
