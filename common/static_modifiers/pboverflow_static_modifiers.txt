@@ -1,0 +1,36 @@
+# The ship_regen_add_prec has a cap of 9,223,372, exceeds this value causes regen negative.
+# The minor value of ship_regen_add_prec is -9,223,372.
+# We can simply use a ship_regen_add_static 18446744 to gain at least 9,223,372 regen per day.
+# Notice: if the ship_regen_add_static value exceeds 922,337,203 would also causes overflow.
+ship_hull_regen_fix = {
+	ship_hull_regen_add_static = 18446744
+}
+ship_armor_regen_fix = {
+	ship_armor_regen_add_static = 18446744
+}
+ship_shield_regen_fix = {
+	ship_shield_regen_add_static = 18446744
+}
+
+# The ship hull/armor/shield has a cap of 922,337,203, exceeds this value becomes negative.
+# A ship with negative hull disappears in no time, we can't fix that before the ship disappears.
+# We need to reduce the overall ship hull value in advance.
+ship_hull_value_fix = {
+	ship_hull_mult = -0.5
+}
+ship_armor_value_fix = {
+	ship_armor_mult = -0.5
+}
+ship_shield_value_fix = {
+	ship_shield_mult = -0.5
+}
+
+# The ship damage and fire rate are both have a cap of 92,233,720,368%.
+# Very occasionally those values become negative.
+# I haven't found the maximum value of the damage of a single shot.
+ship_damage_fix = {
+	ship_weapon_damage = -0.5
+}
+ship_fire_rate_fix = {
+	ship_fire_rate_mult = -0.5
+}

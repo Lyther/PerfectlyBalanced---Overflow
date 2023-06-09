@@ -1,0 +1,73 @@
+﻿l_simp_chinses:
+ ship_hull_regen_fix:0 "舰体值恢复溢出修正"
+ ship_armor_regen_fix:0 "装甲值恢复溢出修正"
+ ship_shield_regen_fix:0 "护盾值恢复溢出修正"
+ ship_hull_value_fix:0 "舰体值溢出修正"
+ ship_armor_value_fix:0 "装甲值溢出修正"
+ ship_shield_value_fix:0 "护盾值溢出修正"
+ ship_damage_fix:0 "武器伤害溢出修正"
+ ship_fire_rate_fix:0 "武器射速溢出修正"
+
+ pboverflow_events.1.name:0 "意识流平衡：溢出修复"
+ pboverflow_events.1.desc:0 "如果你不幸观察到下列现象，那么说明你应该使用极为先进的溢出修复系统了：\n1. 舰船的舰体值/装甲值/护盾值每天都在减少，直到舰体值为1，装甲与护盾归零；\n2. 舰船刚刚从船坞里开出来就瞬间消失了；\n3. 科研面板中的进度竟然显示【无进度】，或者目前研究点数变成负数；\n4. 舰船详情页面中的伤害或者开火射速变为负数；\n5. 我们强大的舰队火力值竟然只有1，真是不可理喻！\n\n溢出修复也并非万能，过于魔怔的数值和MOD还是祈祷大整数之神快点降临吧！"
+ pboverflow_events.1.a:0 "舰船恢复溢出修正已开启"
+ pboverflow_events.1.b:0 "科技进度溢出修正已开启"
+ pboverflow_events.1.c:0 "调整舰体值溢出修正"
+ pboverflow_events.1.d:0 "调整装甲值溢出修正"
+ pboverflow_events.1.e:0 "调整护盾值溢出修正"
+ pboverflow_events.1.f:0 "调整武器伤害溢出修正"
+ pboverflow_events.1.g:0 "调整武器射速溢出修正"
+ pboverflow_events.1.h:0 "关闭界面"
+
+ pboverflow_events.2.name:0 "舰体值溢出修正设置"
+ pboverflow_events.2.desc:0 "当前修正倍率：[This.ship_hull_value_fix_mult]\n每层修正倍率将会减少50%舰体值"
+ pboverflow_events.2.a:0 "倍率*10"
+ pboverflow_events.2.b:0 "倍率+1"
+ pboverflow_events.2.c:0 "倍率-1"
+ pboverflow_events.2.d:0 "倍率/10"
+ pboverflow_events.2.e:0 "应用修正"
+ pboverflow_events.2.f:0 "移除修正"
+ pboverflow_events.2.g:0 "取消"
+
+ pboverflow_events.3.name:0 "装甲值溢出修正设置"
+ pboverflow_events.3.desc:0 "当前修正倍率：[This.ship_armor_value_fix_mult]\n每层修正倍率将会减少50%装甲值"
+ pboverflow_events.3.a:0 "倍率*10"
+ pboverflow_events.3.b:0 "倍率+1"
+ pboverflow_events.3.c:0 "倍率-1"
+ pboverflow_events.3.d:0 "倍率/10"
+ pboverflow_events.3.e:0 "应用修正
+ pboverflow_events.3.f:0 "移除修正
+ pboverflow_events.3.g:0 "取消"
+
+ pboverflow_events.4.name:0 "护盾值溢出修正设置"
+ pboverflow_events.4.desc:0 "当前修正倍率：[This.ship_shield_value_fix_mult]\n每层修正倍率将会减少50%护盾值"
+ pboverflow_events.4.a:0 "倍率*10"
+ pboverflow_events.4.b:0 "倍率+1"
+ pboverflow_events.4.c:0 "倍率-1"
+ pboverflow_events.4.d:0 "倍率/10"
+ pboverflow_events.4.e:0 "应用修正
+ pboverflow_events.4.f:0 "移除修正
+ pboverflow_events.4.g:0 "取消"
+
+ pboverflow_events.5.name:0 "武器伤害溢出修正设置"
+ pboverflow_events.5.desc:0 "当前修正倍率：[This.ship_damage_fix_mult]\n每层修正倍率将会减少50%武器伤害"
+ pboverflow_events.5.a:0 "倍率*10"
+ pboverflow_events.5.b:0 "倍率+1"
+ pboverflow_events.5.c:0 "倍率-1"
+ pboverflow_events.5.d:0 "倍率/10"
+ pboverflow_events.5.e:0 "应用修正
+ pboverflow_events.5.f:0 "移除修正
+ pboverflow_events.5.g:0 "取消"
+
+ pboverflow_events.6.name:0 "武器射速溢出修正设置"
+ pboverflow_events.6.desc:0 "当前修正倍率：[This.ship_fire_rate_fix_mult]\n每层修正倍率将会减少50%武器射速"
+ pboverflow_events.6.a:0 "倍率*10"
+ pboverflow_events.6.b:0 "倍率+1"
+ pboverflow_events.6.c:0 "倍率-1"
+ pboverflow_events.6.d:0 "倍率/10"
+ pboverflow_events.6.e:0 "应用修正
+ pboverflow_events.6.f:0 "移除修正
+ pboverflow_events.6.g:0 "取消"
+
+ edict_pboverflow_menu:0 "开启意识流平衡：溢出修复菜单"
+ edict_pboverflow_menu_desc:0 "哦，天啊我的上帝，这些小玩意的数值简直比玛丽阿姨的苹果派还要糟，让我们来用靴子狠狠地踹它的屁股！"

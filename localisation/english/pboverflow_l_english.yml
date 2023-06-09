@@ -1,0 +1,73 @@
+﻿l_english:
+ ship_hull_regen_fix:0 "Hull Regen Overflow Fix"
+ ship_armor_regen_fix:0 "Armor Regen Overflow Fix"
+ ship_shield_regen_fix:0 "Shield Regen Overflow Fix"
+ ship_hull_value_fix:0 "Hull Value Overflow Fix"
+ ship_armor_value_fix:0 "Armor Value Overflow Fix"
+ ship_shield_value_fix:0 "Shield Value Overflow Fix"
+ ship_damage_fix:0 "Weapon Damage Overflow Fix"
+ ship_fire_rate_fix:0 "Weapon Fire Rate Overflow Fix"
+
+ pboverflow_events.1.name:0 "Perfectly Balanced - Overflow Fix"
+ pboverflow_events.1.desc:0 "If you've unfortunately observed the following phenomenon, it shows that you should be using an extremely advanced overflow repair system:\n1. The ship's hull value/armor value/shield value decreases every day until the hull value becomes 1, and the armor and shield values return to zero;\n2. The ship disappears instantly as it just pulls out of the shipyard;\n3. The progress in the research panel shows "no progress", or the current research points become negative;\n4. The damage or firing rate on the ship's details page becomes negative;\n5. Our powerful fleet firepower is only 1, which is unreasonable!\n\nOverflow repair is not omnipotent, so too bizarre values and MODs still require the grace of the God of integers."
+ pboverflow_events.1.a:0 "Ship Regen Overflow Fix Enabled"
+ pboverflow_events.1.b:0 "Tech Progress Overflow Fix Enabled"
+ pboverflow_events.1.c:0 "Adjust Hull Value Overflow Modifier"
+ pboverflow_events.1.d:0 "Adjust Armor Value Overflow Modifier"
+ pboverflow_events.1.e:0 "Adjust Shield Value Overflow Modifier"
+ pboverflow_events.1.f:0 "Adjust Weapon Damage Overflow Modifier"
+ pboverflow_events.1.g:0 "Adjust Weapon Fire Rate Overflow Modifier"
+ pboverflow_events.1.h:0 "Close Menu"
+
+ pboverflow_events.2.name:0 "Hull Value Overflow Modifier Setting"
+ pboverflow_events.2.desc:0 "Current Modifier Mult - [This.ship_hull_value_fix_mult]\nEach layer of mult will reduce 50% hull value"
+ pboverflow_events.2.a:0 "Mult * 10"
+ pboverflow_events.2.b:0 "Mult + 1"
+ pboverflow_events.2.c:0 "Mult - 1"
+ pboverflow_events.2.d:0 "Mult / 10"
+ pboverflow_events.2.e:0 "Apply modifier"
+ pboverflow_events.2.f:0 "Remove modifier"
+ pboverflow_events.2.g:0 "Cancel"
+
+ pboverflow_events.3.name:0 "Armor Value Overflow Modifier Setting"
+ pboverflow_events.3.desc:0 "Current Modifier Mult - [This.ship_armor_value_fix_mult]\nEach layer of mult will reduce 50% armor value"
+ pboverflow_events.3.a:0 "Mult * 10"
+ pboverflow_events.3.b:0 "Mult + 1"
+ pboverflow_events.3.c:0 "Mult - 1"
+ pboverflow_events.3.d:0 "Mult / 10"
+ pboverflow_events.3.e:0 "Apply modifier
+ pboverflow_events.3.f:0 "Remove modifier
+ pboverflow_events.3.g:0 "Cancel"
+
+ pboverflow_events.4.name:0 "Shield Value Overflow Modifier Setting"
+ pboverflow_events.4.desc:0 "Current Modifier Mult - [This.ship_shield_value_fix_mult]\nEach layer of mult will reduce 50% shield value"
+ pboverflow_events.4.a:0 "Mult * 10"
+ pboverflow_events.4.b:0 "Mult + 1"
+ pboverflow_events.4.c:0 "Mult - 1"
+ pboverflow_events.4.d:0 "Mult / 10"
+ pboverflow_events.4.e:0 "Apply modifier
+ pboverflow_events.4.f:0 "Remove modifier
+ pboverflow_events.4.g:0 "Cancel"
+
+ pboverflow_events.5.name:0 "Weapon Damage Overflow Modifier Setting"
+ pboverflow_events.5.desc:0 "Current Modifier Mult - [This.ship_damage_fix_mult]\nEach layer of mult will reduce 50% weapon damage"
+ pboverflow_events.5.a:0 "Mult * 10"
+ pboverflow_events.5.b:0 "Mult + 1"
+ pboverflow_events.5.c:0 "Mult - 1"
+ pboverflow_events.5.d:0 "Mult / 10"
+ pboverflow_events.5.e:0 "Apply modifier
+ pboverflow_events.5.f:0 "Remove modifier
+ pboverflow_events.5.g:0 "Cancel"
+
+ pboverflow_events.6.name:0 "Weapon Fire Rate Overflow Modifier Setting"
+ pboverflow_events.6.desc:0 "Current Modifier Mult - [This.ship_fire_rate_fix_mult]\nEach layer of mult will reduce 50% weapon fire rate"
+ pboverflow_events.6.a:0 "Mult * 10"
+ pboverflow_events.6.b:0 "Mult + 1"
+ pboverflow_events.6.c:0 "Mult - 1"
+ pboverflow_events.6.d:0 "Mult / 10"
+ pboverflow_events.6.e:0 "Apply modifier
+ pboverflow_events.6.f:0 "Remove modifier
+ pboverflow_events.6.g:0 "Cancel"
+
+ edict_pboverflow_menu:0 "Open Perfectly Balanced - Overflow Fix Menu"
+ edict_pboverflow_menu_desc:0 "Oh my God of heaven, these values of these little things are even worse than Aunt Mary's apple pie. Let's kick its butt with our boots!"
