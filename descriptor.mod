@@ -1,4 +1,4 @@
-version="1.0.0"
+version="1.0.1"
 tags={
 	"Balance"
 	"Fixes"
@@ -6,5 +6,5 @@ tags={
 	"Overhaul"
 }
 name="PerfectlyBalanced - Overflow"
-supported_version="3.8.3"
+supported_version="3.8.*"
 picture="thumbnail.png"
